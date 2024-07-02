@@ -29,7 +29,7 @@ void setup() {
   pinMode(DEL_VERTE, OUTPUT);
   pinMode(DEL_ROUGE, OUTPUT);
   pinMode(BUZZER, OUTPUT);
-
+  // Programme de démonstration.
   Ecran_LCD.init();
   Ecran_LCD.backlight();
   Ecran_LCD.clear();

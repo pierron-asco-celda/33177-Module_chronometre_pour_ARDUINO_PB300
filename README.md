@@ -30,6 +30,7 @@ Livrée avec tous les programmes corrigés, cette maquette est un outil clé en 
 - mBlock : [Télécharger](https://mblock.cc/pages/downloads)
 
 - Documentation : [Télécharger](https://github.com/pierron-asco-celda/33177-Module_chronometre_pour_ARDUINO_PB300/blob/main/MODULE%20CHRONOM%C3%88TRE%20POUR%20ARDUINO%20PB300.txt)
+- Bibliothèque : : [Télécharger](https://github.com/pierron-asco-celda/33177-Module_chronometre_pour_ARDUINO_PB300/blob/main/Programmes/Bibliotheque_Pierron_33177.zip)
 
 ## Programme de démonstration
 
@@ -65,7 +66,7 @@ void setup() {
   pinMode(DEL_VERTE, OUTPUT);
   pinMode(DEL_ROUGE, OUTPUT);
   pinMode(BUZZER, OUTPUT);
-
+  // Programme de démonstration.
   Ecran_LCD.init();
   Ecran_LCD.backlight();
   Ecran_LCD.clear();
