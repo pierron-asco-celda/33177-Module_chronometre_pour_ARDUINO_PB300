@@ -1,0 +1,9 @@
+Maquette MT33177
+Bibliothèque : Pierron_33177.h
+
+Écran LCD 20X4 : Liaison I2C 0x20
+Photodiode SFH 213 : Entrée analogique A0
+Photodiode SFH 213 : Entrée analogique A1
+DEL verte : Sortie digitale 4
+DEL rouge : Sortie digitale 2
+Buzzer : Sortie digitale 6
